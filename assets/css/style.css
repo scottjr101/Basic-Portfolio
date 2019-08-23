@@ -1,4 +1,4 @@
-#header {
+#name {
     background-color: #4aaaa5;
     color: white;
     text-align: center;
@@ -12,8 +12,9 @@
     float: left;
 }
 
-a:link {
+a {
     text-decoration: none;
+    color: #777777;
 }    
 
 #nav {
@@ -31,7 +32,7 @@ body {
     background-image: url("../images/old_moon.png");
 }
 
-.header {
+.header_class {
     max-width: 960px;
     height: 75px;
     margin: auto;
@@ -51,7 +52,7 @@ header {
     z-index: 1;
 }
 
-.main {
+.main_class {
     max-width: 960px;
     margin: auto;
     background-color: #ffffff;
@@ -76,10 +77,10 @@ main {
     position: absolute;
     left: 0px;
     right: 0px;
-    top: 150px;
+    top: 125px;
 }
 
-#about_me {
+#main_header {
     color: #4aaaa5;
     border-bottom: 2px solid #dddddd;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -89,15 +90,15 @@ main {
     margin-left: 25px;
 }
 
-img {
+#profile_pic {
     width: 200px;
     height: 220px;
     float: left;
-    margin-top: 10px;
+    margin-top: 9px;
     margin-right: 20px;
 }
 
-#picture {
+#paragraph {
     padding-top: 0px;
     padding-bottom: 10px;
     padding-right: 25px;
@@ -108,7 +109,7 @@ img {
     letter-spacing: 2px;
 }
 
-#copyr {
+#copyright {
     text-align: center;
     padding-top: 18px;
     color: #dddddd;
@@ -137,4 +138,49 @@ img {
     float: left;
     padding-left: 12px;
     padding-top: 3px;
+}
+
+#hangman {
+    height: 175px;
+    width: 250px;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+#rpg_game {
+    height: 175px;
+    width: 250px;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#trivia_game {
+    height: 175px;
+    width: 250px;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#rutgers {
+    height: 175px;
+    width: 250px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+#rock_paper {
+    height: 175px;
+    width: 250px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
 }
