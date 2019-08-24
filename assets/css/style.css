@@ -184,3 +184,43 @@ main {
     margin-left: 10px;
     margin-bottom: 20px;
 }
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    resize: none;
+}
+
+#other_text {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 6px 6px;
+    margin: 6px 0;
+    box-sizing: border-box;
+}
+  
+input[type=submit] {
+    width: 120px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #2e918c;
+}
+
+#contact_main {
+    padding: 1px 25px 5px 25px;
+}
