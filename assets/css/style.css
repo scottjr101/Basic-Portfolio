@@ -59,6 +59,7 @@ header {
     border: 2px solid #dddddd;
     overflow: auto;
     z-index: 0;
+    margin-bottom: 120px;
 }
 
 footer {
