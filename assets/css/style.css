@@ -162,10 +162,10 @@ main {
 #trivia_game {
     height: 175px;
     width: 250px;
-    margin-top: 15px;
+    margin-top: 0px;
     margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    margin-left: 25px;
+    margin-bottom: 20px;
 }
 
 #rutgers {
@@ -173,7 +173,7 @@ main {
     width: 250px;
     margin-top: 10px;
     margin-right: 10px;
-    margin-left: 25px;
+    margin-left: 10px;
     margin-bottom: 20px;
 }
 
