@@ -168,16 +168,7 @@ main {
     margin-bottom: 20px;
 }
 
-#rutgers {
-    height: 175px;
-    width: 250px;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-}
-
-#rock_paper {
+#rutgers, #rock_paper {
     height: 175px;
     width: 250px;
     margin-top: 10px;
@@ -189,15 +180,25 @@ main {
     height: 175px;
     width: 250px;
 }
-.test {
+.gifT {
     z-index: 0;
     position: relative;
+    float: left;
     margin-top: 0px;
     margin-right: 10px;
     margin-left: 25px;
     margin-bottom: 20px;
 }
-.test h2 {
+.trainS {
+    z-index: 0;
+    position: relative;
+    float: left;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.gifT h2, .trainS h2 {
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: absolute;
