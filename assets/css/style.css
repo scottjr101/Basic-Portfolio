@@ -180,7 +180,7 @@ main {
     height: 175px;
     width: 250px;
 }
-.gifT {
+.giftastic {
     z-index: 0;
     position: relative;
     float: left;
@@ -189,7 +189,7 @@ main {
     margin-left: 25px;
     margin-bottom: 20px;
 }
-.trainS {
+.train_scheduler {
     z-index: 0;
     position: relative;
     float: left;
@@ -198,7 +198,16 @@ main {
     margin-left: 15px;
     margin-bottom: 20px;
 }
-.gifT h2, .trainS h2 {
+.giftastic h2 {
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    width: 250px;
+    padding-bottom: 15px;
+}
+.train_scheduler h2 {
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: absolute;
